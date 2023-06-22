@@ -1,0 +1,1 @@
+各ディレクトリの docker image を run すれば sbom が出力されるようになってます。

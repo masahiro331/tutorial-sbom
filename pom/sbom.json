@@ -1,0 +1,297 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:c2dfa643-0e02-4bbd-9225-7f78447074a8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-06-22T16:04:44+00:00",
+    "tools": [
+      {
+        "vendor": "aquasecurity",
+        "name": "trivy",
+        "version": "0.42.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "2f5bf94c-d6cb-45b3-8a32-62b0d7086319",
+      "type": "application",
+      "name": "/work",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "93e448f0-fc4d-4a44-b561-bf8787fa29b4",
+      "type": "application",
+      "name": "multi-module/module/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a66a6f72-c68e-4228-9de9-ffbeb8a72749",
+      "type": "application",
+      "name": "multi-module/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.example/aggregation@1.0.0",
+      "type": "library",
+      "name": "com.example:aggregation",
+      "version": "1.0.0",
+      "purl": "pkg:maven/com.example/aggregation@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.example/module@1.1.1",
+      "type": "library",
+      "name": "com.example:module",
+      "version": "1.1.1",
+      "purl": "pkg:maven/com.example/module@1.1.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.example/example-api@1.7.30",
+      "type": "library",
+      "name": "org.example:example-api",
+      "version": "1.7.30",
+      "purl": "pkg:maven/org.example/example-api@1.7.30",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-core@5.0.0.RELEASE",
+      "type": "library",
+      "name": "org.springframework.security:spring-security-core",
+      "version": "5.0.0.RELEASE",
+      "purl": "pkg:maven/org.springframework.security/spring-security-core@5.0.0.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-aop@5.0.2.RELEASE",
+      "type": "library",
+      "name": "org.springframework:spring-aop",
+      "version": "5.0.2.RELEASE",
+      "purl": "pkg:maven/org.springframework/spring-aop@5.0.2.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@4.2.3.RELEASE",
+      "type": "library",
+      "name": "org.springframework:spring-beans",
+      "version": "4.2.3.RELEASE",
+      "purl": "pkg:maven/org.springframework/spring-beans@4.2.3.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-context@4.2.3.RELEASE",
+      "type": "library",
+      "name": "org.springframework:spring-context",
+      "version": "4.2.3.RELEASE",
+      "purl": "pkg:maven/org.springframework/spring-context@4.2.3.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-core@5.0.1.RELEASE",
+      "type": "library",
+      "name": "org.springframework:spring-core",
+      "version": "5.0.1.RELEASE",
+      "purl": "pkg:maven/org.springframework/spring-core@5.0.1.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-expression@4.2.3.RELEASE",
+      "type": "library",
+      "name": "org.springframework:spring-expression",
+      "version": "4.2.3.RELEASE",
+      "purl": "pkg:maven/org.springframework/spring-expression@4.2.3.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-jcl@5.0.1.RELEASE",
+      "type": "library",
+      "name": "org.springframework:spring-jcl",
+      "version": "5.0.1.RELEASE",
+      "purl": "pkg:maven/org.springframework/spring-jcl@5.0.1.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-web@4.2.3.RELEASE",
+      "type": "library",
+      "name": "org.springframework:spring-web",
+      "version": "4.2.3.RELEASE",
+      "purl": "pkg:maven/org.springframework/spring-web@4.2.3.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework/spring-webmvc@4.2.3.RELEASE",
+      "type": "library",
+      "name": "org.springframework:spring-webmvc",
+      "version": "4.2.3.RELEASE",
+      "purl": "pkg:maven/org.springframework/spring-webmvc@4.2.3.RELEASE",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "2f5bf94c-d6cb-45b3-8a32-62b0d7086319",
+      "dependsOn": [
+        "93e448f0-fc4d-4a44-b561-bf8787fa29b4",
+        "a66a6f72-c68e-4228-9de9-ffbeb8a72749"
+      ]
+    },
+    {
+      "ref": "93e448f0-fc4d-4a44-b561-bf8787fa29b4",
+      "dependsOn": [
+        "pkg:maven/com.example/module@1.1.1",
+        "pkg:maven/org.example/example-api@1.7.30"
+      ]
+    },
+    {
+      "ref": "a66a6f72-c68e-4228-9de9-ffbeb8a72749",
+      "dependsOn": [
+        "pkg:maven/com.example/aggregation@1.0.0",
+        "pkg:maven/com.example/module@1.1.1",
+        "pkg:maven/org.example/example-api@1.7.30",
+        "pkg:maven/org.springframework.security/spring-security-core@5.0.0.RELEASE",
+        "pkg:maven/org.springframework/spring-aop@5.0.2.RELEASE",
+        "pkg:maven/org.springframework/spring-beans@4.2.3.RELEASE",
+        "pkg:maven/org.springframework/spring-context@4.2.3.RELEASE",
+        "pkg:maven/org.springframework/spring-core@5.0.1.RELEASE",
+        "pkg:maven/org.springframework/spring-expression@4.2.3.RELEASE",
+        "pkg:maven/org.springframework/spring-jcl@5.0.1.RELEASE",
+        "pkg:maven/org.springframework/spring-web@4.2.3.RELEASE",
+        "pkg:maven/org.springframework/spring-webmvc@4.2.3.RELEASE"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.example/aggregation@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.example/module@1.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.example/example-api@1.7.30",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework.security/spring-security-core@5.0.0.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-aop@5.0.2.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-beans@4.2.3.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-context@4.2.3.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-core@5.0.1.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-expression@4.2.3.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-jcl@5.0.1.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-web@4.2.3.RELEASE",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-webmvc@4.2.3.RELEASE",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}
